@@ -1,0 +1,13 @@
+
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+$custom-themed-colors: (
+    "altprimary" : #ff0000,
+    "orange": #ff7300
+);
+
+$theme-colors: map-merge($custom-themed-colors, $theme-colors);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap'; 

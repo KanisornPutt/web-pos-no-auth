@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@a",
+      "password": "admin",
+      "id": "51ca",
+      "items": [
+        {
+          "name": "Matcha Latte",
+          "description": "Green",
+          "price": 55,
+          "stock": 40,
+          "img": "Matcha.jpg",
+          "options": [
+            {
+              "for": "Type",
+              "req": true,
+              "choices": [
+                "hot",
+                "cold"
+              ]
+            },
+            {
+              "for": "Sweetness",
+              "req": true,
+              "choices": [
+                "0",
+                "50%",
+                "100%"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chocolate",
+          "description": "Choco Choco Choco Choco",
+          "price": 45,
+          "stock": 40,
+          "img": "Choco.png",
+          "options": [
+            {
+              "for": "Sweetness",
+              "req": true,
+              "choices": [
+                "0",
+                "50%",
+                "100%"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ramen",
+          "description": "Japanese Noodles",
+          "price": 129,
+          "stock": 30,
+          "img": "ramen.png",
+          "options": []
+        },
+        {
+          "name": "Burger",
+          "description": "American Sandwich",
+          "price": 215,
+          "stock": 40,
+          "img": "burger.jpg",
+          "options": [
+            {
+              "for": "meat",
+              "req": true,
+              "choices": [
+                "pork",
+                "beef"
+              ]
+            },
+            {
+              "for": "Dine in or To go",
+              "req": true,
+              "choices": [
+                "Dine in",
+                "To go"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Latte",
+          "description": "Milk Coffee",
+          "price": 50,
+          "stock": 50,
+          "img": "Latte.png",
+          "options": []
+        },
+        {
+          "name": "Holy Basil Stir-fry",
+          "description": "Pad Ka Prao",
+          "price": 60,
+          "stock": 60,
+          "img": "kaprao.png",
+          "options": [
+            {
+              "for": "meat",
+              "req": true,
+              "choices": [
+                "pork",
+                "beef",
+                "chicken"
+              ]
+            },
+            {
+              "for": "Addons",
+              "req": false,
+              "choices": [
+                "Fried Egg",
+                "Extra meat"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "528f",
+      "username": "test1",
+      "email": "test@1",
+      "password": "1234",
+      "items": []
+    },
+    {
+      "id": "1416",
+      "username": "newUser",
+      "email": "n@u",
+      "password": "1234",
+      "items": []
+    },
+    {
+      "id": "28ce",
+      "username": "test user",
+      "email": "t@t",
+      "password": "1234",
+      "items": []
+    }
+  ]
+}
